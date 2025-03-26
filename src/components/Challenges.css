@@ -1,0 +1,153 @@
+.challenges-container {
+    /* background-color: aquamarine; */
+    height: 90%;
+    padding-top: 1rem;
+}
+
+.challenges-header {
+    /* background-color: antiquewhite; */
+    display: flex;
+    align-items: center;
+}
+
+.push-search {
+    margin-left: auto;
+}
+
+.export-cv {
+    margin-left: 3rem;
+}
+
+.challenges-content {
+    height: 80%;
+    min-width: auto;
+    /* background-color: antiquewhite; */
+    margin-top: 1rem;
+}
+
+
+table {
+    border: 1px solid rgb(202, 202, 202, 0.5);
+    width: 100%;
+}
+
+thead {
+    background-color: rgb(241, 241, 241);
+}
+
+th {
+    font-weight: 500;
+}
+
+td {
+    font-size: .8rem;
+    font-weight: 200;
+    text-align: center;
+    padding: .56rem;
+}
+
+tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+
+@media(width < 570px){
+    table {
+        width: 50%;
+    }
+}
+@media(width < 520px){
+    table {
+        width: 25%;
+    }
+}
+
+
+
+.pop-up-card-1 {
+    background-color: #fff;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 2rem;
+    margin-top: 2rem;
+    /* width: 15%;
+    height: 60%; */
+    width: 15rem;
+    height: 15rem;
+
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+
+    /* position: "fixed";
+    top: 0;
+    left: 0;
+    width: "100%";
+    height: "100%";
+    backgroundColor: "rgba(0, 0, 0, 0.5)";
+    display: "flex"';
+    justifyContent: "center";
+    alignItems: "center"; */
+
+    position: fixed;
+    top: 10rem;
+    left: 45rem;
+
+}
+
+.card-element {
+    padding: .5rem;
+}
+
+.pop-up-card-1 h1 {
+    font-size: 1.3rem;
+}
+
+.pop-up-card-1 p {
+    font-size: .9rem;
+    font-weight: 500;
+}
+
+
+
+
+
+.add-new-challenge-btn {
+    font-weight: 500;
+    background-color: rgba(137, 203, 213, 0.5);
+    border: transparent;
+    border-radius: 20px;
+    padding: .3rem;
+    width: 15rem;
+    cursor: pointer;
+}
+
+.add-challenge-window {
+    position: fixed;
+    top: 10rem;
+    left:41rem;
+
+    background-color: #fff;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 1rem;
+    width: 20rem;
+    height: 20rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.add-challenge-window button {
+    margin-top: 2rem;
+}
+
+.challenge-window-element label {
+    margin-top: 20rem;
+}
+
+.challenge-window-element {
+    padding: .5rem;
+}
