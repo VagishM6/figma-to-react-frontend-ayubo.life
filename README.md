@@ -26,4 +26,5 @@ This project is a front-end implementation of the given Figma designs using Reac
 ## Installation
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/figma-to-react-frontend-ayubo.life.git
+   git clone https://github.com/VagishM6/figma-to-react-frontend-ayubo.life
+   ```
