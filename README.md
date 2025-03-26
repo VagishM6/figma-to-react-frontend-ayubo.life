@@ -18,9 +18,9 @@ This project is a front-end implementation of the given Figma designs using Reac
 - React Icons
 - CSS (Flexbox & Grid)
 
-## Dependencies
+## Dependencies - react-icons
 ```sh
-- npm install react-icons --save
+   npm install react-icons --save
 ```
 
 ## Installation
