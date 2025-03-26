@@ -48,7 +48,7 @@ const Reviews = () => {
                     <div className='ayubo-life'>
                         <h2 className='dash-main-title'>Reviews</h2>
 
-                        <h1 style={{fontSize:"2rem"}}>Review Page</h1>
+                        {/* <h1 style={{fontSize:"2rem"}}>Review Page</h1> */}
 
                         <button onClick={showPopup}>popup</button>
 
